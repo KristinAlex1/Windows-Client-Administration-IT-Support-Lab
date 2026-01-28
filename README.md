@@ -1,7 +1,22 @@
 # 🖥️ Windows Server & Active Directory  
 ## University-Style Systems Administration Project
 
----
+## 🧩 System Design Summary
+<img width="1536" height="1024" alt="Diagram" src="https://github.com/user-attachments/assets/915ac970-8cdb-40b2-9260-c82e43c46bf1" />
+
+
+This project simulates a **university-style Active Directory environment** built around a centralized **Windows Server 2022 Domain Controller (DC01)** and a **Windows 10 domain-joined client**, connected through an internal network representing a campus LAN.
+
+The Domain Controller hosts **Active Directory Domain Services (AD DS)**, **DNS**, and **Group Policy Objects (GPOs)** to manage identities, authentication, and policy enforcement across student and faculty accounts. Organizational Units (OUs) and security groups are used to reflect real academic role separation.
+
+A domain-joined Windows 10 client validates authentication flows and Group Policy enforcement for end users.
+
+The environment also includes **simulated help desk operations**, where common university IT support scenarios are handled directly through Active Directory:
+- Student account unlocks before exams  
+- Secure password resets with enforced policy  
+- New student account onboarding and group assignment  
+- Faculty access and permission verification  
+
 
 ## 📌 Project Overview
 
